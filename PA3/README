@@ -1,0 +1,36 @@
+Luke Lai(luelai@ucsc.edu)
+Partner: Gabriel Reyes(ghreyes@ucsc.edu)
+CMPS 109
+Asg 3
+2/14/2016
+
+This program emulates pkeyvalue.perl. It implements template code for listmaps and xpairs to create a cyclic list of xpairs. Input is read either by file(s) or line by line in cin.
+
+Lines beginning with "#" and blank lines do nothing and are considered comments.
+
+key - typing a single key will print the value paired with that key.
+
+key= - key and value node with specified key will be deleted.
+
+key=value - set key's value to value specified or create new node with specified key and value if none exists.
+
+= - print all the pairs in the list lexicographically.
+
+=value - print all of the pairs that have that specified value.
+	
+Files: 
+main.cpp listmap.h listmap.tcc trace.cpp trace.h util.cpp util.h xless.h xpair.h
+
+This program was completed using pair programming.
+
+We acknowledge that each partner in a programming pair should drive roughly 50% of the time the pair is working together, and at most 25% of an individual's effort for an assignment should be spent working alone. Any work done by a solitary programmer must be reviewed by the partner. The object is to work together, learning from each other, not to divide the work into two pieces with each partner working on a different piece.
+
+Gabe Reyes spent    2 hours working alone
+Luke Lai spent		2 hours working alone
+
+We spent            15 hours working together
+
+Gabe Reyes spent    8 hours driving.
+Luke Lai spent		7 hours driving.
+
+Please grade the work submitted by ghreyes@ucsc.edu and not the work submitted by luelai@ucsc.edu
